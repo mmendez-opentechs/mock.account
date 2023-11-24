@@ -25,7 +25,8 @@ public class AccountInfoController : ControllerBase
             Nickname = "Personal Checking"
         };
         
-        _logger.LogDebug(JsonSerializer.Serialize(accountInfo));
+        _logger.LogInformation(JsonSerializer.Serialize(accountInfo));
+
         return accountInfo;
     }
 }
