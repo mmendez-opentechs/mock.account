@@ -1,11 +1,11 @@
 schemaVersion: 2.1.0
 metadata:
-  name: mockpersoninfo
+  name: mockaccount
 attributes:
   che-theia.eclipse.org/sidecar-policy: mergeImage
 projects:
   - attributes: {}
-    name: mockpersoninfo
+    name: mockaccount
     git:
       remotes:
         origin: https://github.com/mmendez-opentechs/mock.account.git
